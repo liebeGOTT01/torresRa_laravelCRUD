@@ -1,3 +1,165 @@
-/* .row {
-    background-color: aqua;
-} */
+    /* body {
+    margin-top: 5%;
+    height: 100%;
+    background: linear-gradient(to bottom, #eb836d, #ee798d, #e179af, #c381ce, #928de3, #8f94e6, #8c9ae8, #8ba0e9, #b5a6e4, #d1afdd, #e3bbd9, #edc9d8);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ */
+    
+    body {
+        /* background-image: url('https://i0.wp.com/twinpixelvideo.com/wp-content/uploads/2015/04/gradient-wallpapers-desktop-gradient-grey-wallpaper-generator-iphone-5-android-maker-wallpapers-hd-ios-7-deviantart-ipad.jpg?fit=1920%2C1200&ssl=1');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-color: black;
+        margin-left: 2%;
+    }
+    
+    .glass-container {
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(20px);
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+        border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+        border-right: 1px rgba(40, 40, 40, 0.35) solid;
+        position: relative;
+        z-index: 5;
+        box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+        -webkit-box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+        -moz-box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+    }
+    
+    .title {
+        background: #b51d12;
+        background: linear-gradient( to right bottom, rgba(250, 255, 255, 0.8), rgba(0, 50, 100, 0.3));
+    }
+    
+    .btn {
+        border-radius: 10px;
+        backdrop-filter: blur(13px);
+        background-color: rgba(0, 11, 255, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+        border: 0px rgba(255, 255, 255, 0.4) solid;
+        border-bottom: 0px rgba(40, 40, 40, 0.35) solid;
+        border-right: 0px rgba(40, 40, 40, 0.35) solid;
+    }
+    
+    .details {
+        border-radius: 23px;
+        backdrop-filter: blur(13px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .addForm {
+        border-radius: 23px;
+        backdrop-filter: blur(13px);
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 0px rgba(255, 255, 255, 0.4) solid;
+        border-bottom: 0px rgba(40, 40, 40, 0.35) solid;
+        border-right: 0px rgba(40, 40, 40, 0.35) solid;
+        z-index: 999;
+        box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+        -webkit-box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+        -moz-box-shadow: -13px -29px 111px -56px rgba(224, 240, 240, 1);
+    }
+    
+    .header {
+        border-radius: 17px 17px 0 0;
+        backdrop-filter: blur(9px);
+        background-color: rgba(255, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    }
+    
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4,
+    .circle5 {
+        background: #b51d12;
+        background: linear-gradient( to right bottom, rgba(250, 255, 255, 0.8), rgba(255, 50, 100, 0.3));
+        z-index: 1;
+        box-shadow: -13px -29px 97px -17px rgba(224, 240, 240, 1);
+        -webkit-box-shadow: -13px -29px 97px -17px rgba(224, 240, 240, 1);
+        -moz-box-shadow: -13px -29px 97px -17px rgba(224, 240, 240, 1);
+    }
+    
+    .circle1 {
+        top: 5%;
+        right: 5%;
+        height: 10rem;
+        width: 10rem;
+        position: fixed;
+        border-radius: 50%;
+    }
+    
+    .circle2 {
+        bottom: -15%;
+        left: -7%;
+        height: 20rem;
+        width: 20rem;
+        position: fixed;
+        border-radius: 50%;
+    }
+    
+    .circle3 {
+        bottom: 0%;
+        right: 2%;
+        height: 15rem;
+        width: 15rem;
+        position: fixed;
+        border-radius: 5%;
+    }
+    
+    .circle4 {
+        top: 7%;
+        left: 15%;
+        height: 5rem;
+        width: 5rem;
+        position: fixed;
+        border-radius: 50%;
+    }
+    
+    .circle5 {
+        top: 25%;
+        left: 30%;
+        height: 20rem;
+        width: 20rem;
+        position: fixed;
+        border-radius: 50%;
+    }
+    
+    .button {
+        width: auto;
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+        position: absolute;
+        z-index: 8;
+    }
+    
+    .button {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    
+    .button:after {
+        content: '»';
+        font-size: 15px;
+        position: absolute;
+        opacity: 0;
+        top: 5px;
+        right: -15px;
+        transition: 0.5s;
+    }
+    
+    .button:hover {
+        padding-right: 30px;
+        padding-left: 8px;
+    }
+    
+    .button:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
